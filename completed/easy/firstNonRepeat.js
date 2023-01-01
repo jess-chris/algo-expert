@@ -8,11 +8,7 @@ function firstNonRepeatingCharacter(string) {
 
   }
 
-  console.log(obj)
-
   const values = Object.values(obj).filter(el => el >= 0).sort((a,b) => a - b);
-
-  console.log(values)
 
   if (values.length !== 0) return values[0];
 
